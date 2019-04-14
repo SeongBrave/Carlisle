@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://github.com/seongbrave/TwilightSpecs.git'   # 私有库
+use_frameworks!
+
+target 'Carlisle_Example' do
+  pod 'Carlisle', :path => '../'
+  pod 'IQKeyboardManagerSwift', '~> 6.2.0'
+
+  target 'Carlisle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,71 @@
+{
+  "organization": "seongbrave",
+  "author": "seongbrave",
+  "preset": "all",
+  "list": "none",
+  "force": true,
+  "isDeep": true,
+  "tempJPath": "tempJson",
+  "mainPath": "Main",
+  "gTypes": [
+    "viewcontroller",
+    "viewmodel",
+    "core",
+    "router",
+    "api"
+  ],
+  "viewcontroller": {
+    "isProject": false,
+    "path": "ViewController",
+    "suffix": "_Vc"
+  },
+  "viewmodel": {
+    "isProject": false,
+    "path": "ViewModel",
+    "suffix": "_Vm"
+  },
+  "model": {
+    "isProject": false,
+    "path": "Model",
+    "suffix": "_Model"
+  },
+  "cell": {
+    "isProject": false,
+    "path": "View/Cell",
+    "suffix": "_Cell"
+  },
+  "lang": "swift",
+  "prefix": "",
+  "cLangList": [
+    {
+      "lang": "java",
+      "ext": "java",
+      "hasPrefix": false
+    },
+    {
+      "lang": "javascript",
+      "ext": "js",
+      "hasPrefix": false
+    }
+  ],
+  "cGTypes": [
+    {
+      "gType": "core",
+      "path": "module",
+      "suffix": "Core",
+      "isProject": true
+    },
+    {
+      "gType": "router",
+      "path": "module",
+      "suffix": "Router",
+      "isProject": true
+    },
+    {
+      "gType": "api",
+      "path": "module",
+      "suffix": "Api",
+      "isProject": true
+    }
+  ]
+}
