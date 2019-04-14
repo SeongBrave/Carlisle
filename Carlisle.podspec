@@ -26,7 +26,7 @@ TODO:登录注册.
   s.swift_version = "4.2"
   s.source_files = 'Carlisle/Classes/**/*{.swift}'
   
-  s.dependency 'Bella', '~> 0.0.4'
+  s.dependency 'Bella', '~> 0.0.1'
   
   s.resource_bundles = {
       'Carlisle' => ['Carlisle/Assets/*{.storyboard,.xcassets}']
